@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    
+    <nav>
+        <div class="nav-wrapper blue darken-3">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><span class="blue grey-text text-darken-4">
+                        <div style="font-family: 'Abel', sans-serif;">
+                           <b>8379.6775&nbsp;&nbsp;&nbsp;&nbsp;|</b>
+                        </div>
+                    </span></li>
+            <li><a href="http://127.0.0.1:5000/about">About</a></li>
+            <li><a href="http://127.0.0.1:5000/">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+<style>
+    .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    size: 10cm;
+    }
+    .centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+</style>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://kit.fontawesome.com/a2a39ff18e.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+        <br><br>
+        <a href="http://127.0.0.1:5000/mainmenu">
+            <div style="width: 340px; height: 180px; overflow: hidden">
+                <img sclass="centered-and-cropped" src="http://127.0.0.1:5000/file/ayosehat.png" alt="" height="80" width="300">
+            </div>
+          </a>
+        <div class="row">
+                <div class="col s8 offset-s2 ">
+                    <div class="card-panel transparent">
+                        <h4>About</h4><hr>
+                        <h5>Data</h5>
+                        <p> This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them. In particular, the Cleveland database is the only one that has been used by ML researchers to this date. The "goal" field refers to the presence of heart disease in the patient. It is integer valued from 0 (no presence) to 4.</p>
+                        <p>source : <a href="https://www.kaggle.com/ronitf/heart-disease-uci"><i><u> Heart Disease UCI</u></i></a></p>
+                        <h6>Attribute Information :</h6>
+                        <p>1. age <br>
+                            2. sex <br>
+                            3. chest pain type (4 values) <br>
+                            4. resting blood pressure <br>
+                            5. serum cholestoral in mg/dl <br>
+                            6. fasting blood sugar > 120 mg/dl <br>
+                            7. resting electrocardiographic results<br>
+                            8. maximum heart rate achieved <br>
+                            9. exercise induced angina <br>
+                            10. oldpeak = ST depression induced by exercise relative to rest <br>
+                            11. the slope of the peak exercise ST segment <br>
+                            12. number of major vessels (0-3) colored by flourosopy <br>
+                            13. thal: 3 = normal; 6 = fixed defect; 7 = reversable defect <br>
+                        </p><br>
+                        <h5>Data Visualization</h5><br>
+                        <img src="http://127.0.0.1:5000/file/agedistribution.png" alt="age" width="550" height="300"><br><br>
+                        <img src="http://127.0.0.1:5000/file/heartDiseaseAndAges.png" alt="age" width="550" height="200"><br><br>
+                        <p>The above Distribution plot shows the distribution of Age amongst all of the entries in the dataset about the heart patients. The Graph suggests that the highest number of people suffering from heart diseases are in the age group of 55-65 years. The patients in the age group 20-30 are very less likely to suffer from heart diseases.</p><br>
+                        <img src="http://127.0.0.1:5000/file/target.png" alt="target" width="550" height="400"><br><br>
+                        <p>Let's look at the Target, The dataset is quite balanced with almost equal no. of Positive and Negative Classes. Let's say the Positive Class says that the patient is suffering from the disease and the Negative class says that the patient is not suffering from the disease.</p><br>
+                        <img src="http://127.0.0.1:5000/file/tresbpswtarget.png" alt="tres" width="550" height="400"><br><br>
+                        <p>tresbps: Resting Blood Pressure, The above Bivariate plot between tresbps(the resting blood pressure of a patient), and the target which says that whether the patient is suffering from the heart disease or not. The plot clearly suggests that the patients who are most likely to not suffer from the disease have a slighly greater blood pressure than the patients who have heart diseases.</p><br>
+                        <img src="http://127.0.0.1:5000/file/hubecgdantarget.png" alt="ecg" width="550" height="400"><br><br>
+                        <p>The above plot is column bar chart representing target vs ECG Measurements(Electro Cardio Gram), The above plot shows that the more number of patients not likely to suffer from heart diseases are having restscg value 0 whereas more number of people have restecg value 1 in case of more likelihood of suffering from a heart disease.</p><br>
+                        
+
+
+                        
+                        <ul class="pagination">
+                                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                                <li class="active"><a href="http://127.0.0.1:5000/about">1</a></li>
+                                <li class="waves-effect"><a href="http://127.0.0.1:5000/about2!">2</a></li>
+                                <li class="waves-effect"><a href="http://127.0.0.1:5000/about3!">3</a></li>
+                                <li class="waves-effect"><a href="http://127.0.0.1:5000/about2!"><i class="material-icons">chevron_right</i></a></li>
+                              </ul>
+                         </div>
+                </div>
+                <div class="col s2">
+                        <div class="card-panel transparent">
+                            <h4>Today On Ayo Sehat!</h4><hr>
+                            <div class="row">
+                            <img  src="https://c-7npsfqifvt25x24jnhx2ex78fcnex2edpn.g01.webmd.com/g00/3_c-7x78x78x78.x78fcne.dpn_/c-7NPSFQIFVT25x24iuuqtx3ax2fx2fjnh.x78fcne.dpnx2feundntx2fmjwfx2fx78fcnex2fdpotvnfs_bttfutx2ftjuf_jnbhftx2fbsujdmf_uivncobjmtx2fgfbuvsftx2f_3123x2f12_3123x2ftipdljoh_ifbsu_efbuit_gfbuvsftx2f70y86_tipdljoh_ifbsu_efbuit_gfbuvsft.kqhx3fsftjafx3d70qyx3a*x26pvuqvu-rvbmjuzx3d61x26j21d.nbslx3djnbhf_$/$/$/$/$/$/$/$/$/$/$/$" alt="logo">
+                            <div class="col s10">
+                                <h6>ARTICLE</h6>
+                                <a href="https://www.webmd.com/heart-disease/features/sudden-cardiac-arrest-why-it-happens"><h4 style="color: black">Shocking Heart Deaths: Why Do They Happen?</h4></a>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <img src="https://c-7npsfqifvt25x24jnhx2ex78fcnex2edpn.g01.webmd.com/g00/3_c-7x78x78x78.x78fcne.dpn_/c-7NPSFQIFVT25x24iuuqtx3ax2fx2fjnh.x78fcne.dpnx2feundntx2fmjwfx2fx78fcnex2fdpotvnfs_bttfutx2ftjuf_jnbhftx2fbsujdmf_uivncobjmtx2fofx78tx2f3123x2f12_3123x2fx78jof_opo_bmdpipm_cfofgjutx2f70y86_x78jof_opo_bmdpipm_cfofgjut.kqhx3fsftjafx3d70qyx3a*x26pvuqvu-rvbmjuzx3d61x26j21d.nbslx3djnbhf_$/$/$/$/$/$/$/$/$/$/$/$" alt="logo">
+                            <div class="col s10">
+                                <h6>VIDEO</h6>
+                                <a href="https://www.webmd.com/heart-disease/video/vein-harvesting-heart-surgery"><h4 style="color: black">Alcohol and Your Heart</h4></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img  src="https://c-7npsfqifvt25x24jnhx2ex78fcnex2edpn.g01.webmd.com/g00/3_c-7x78x78x78.x78fcne.dpn_/c-7NPSFQIFVT25x24iuuqtx3ax2fx2fjnh.x78fcne.dpnx2feundntx2fmjwfx2fx78fcnex2fdpotvnfs_bttfutx2ftjuf_jnbhftx2fbsujdmf_uivncobjmtx2fsfgfsfodf_hvjefx2fbgufs_b_ifbsu_buubdl_sfg_hvjefx2f70y86_bgufs_b_ifbsu_buubdl_sfg_hvjef.kqhx3fsftjafx3d70qyx3a*x26pvuqvu-rvbmjuzx3d61x26j21d.nbslx3djnbhf_$/$/$/$/$/$/$/$/$/$" alt="logo">
+                            <div class="col s10">
+                                <h6>ARTICLE</h6>
+                                <a href="https://www.webmd.com/heart-disease/features/sudden-cardiac-arrest-why-it-happens"><h4 style="color: black">After a Heart Attack</h4></a>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <img  src="https://c-7npsfqifvt25x24jnhx2ex78fcnex2edpn.g01.webmd.com/g00/3_c-7x78x78x78.x78fcne.dpn_/c-7NPSFQIFVT25x24iuuqtx3ax2fx2fjnh.x78fcne.dpnx2feundntx2fmjwfx2fx78fcnex2fdpotvnfs_bttfutx2ftjuf_jnbhftx2fuivncobjmtx2fvojgjfe_sjhiu_sbjmx2fifbsu_ejtfbtfx2f70y86_26_tjnqmf_tufqt_up_mpx78fs_dipmftufspm.kqhx3fsftjafx3d70qyx3a*x26pvuqvu-rvbmjuzx3d61x26j21d.nbslx3djnbhf_$/$/$/$/$/$/$/$/$/$" alt="logo">
+                                <div class="col s10">
+                                    <h6>SLIDESHOW</h6>
+                                    <a href="https://www.webmd.com/cholesterol-management/slideshow-lowering-cholesterol"><h4 style="color: black">15 Simple Steps to Lower Cholestrol</h4></a>
+                                </div>
+                                </div>
+                        </div>
+                        <div class="card-panel transparent">
+                                <h4>Trending Videos</h4><hr>
+                                <div class="row">
+                                <a href="https://www.webmd.com/diet/video/truth-about-intermittent-fasting">
+                                <img  src="https://c-7npsfqifvt25x24jnhx2ex78fcnex2edpn.g01.webmd.com/g00/3_c-7x78x78x78.x78fcne.dpn_/c-7NPSFQIFVT25x24iuuqtx3ax2fx2fjnh.x78fcne.dpnx2feundntx2fmjwfx2fx78fcnex2fdpotvnfs_bttfutx2ftjuf_jnbhftx2fbsujdmf_uivncobjmtx2fsfgfsfodf_hvjefx2fep_gbtujoh_ejfut_x78psl_sfg_hvjefx2f504y446_ep_gbtujoh_ejfut_x78psl_sfg_hvjef.kqhx3fx5bNpcjmfx20Mbcfmx5dXfcNEx20Wjefpx3fsftjafx3d361qyx3a*x26j21d.nbslx3djnbhf_$/$/$/$/$/$/$/$/$/$" alt="logo" width="100px" height="100px"></a>
+                                <div class="col s10">
+                                    <a href="https://www.webmd.com/diet/video/truth-about-intermittent-fasting"><br><h4 style="color: black">Truth About Intermittent Fasting</h4></a>
+                                </div>
+                                </div>
+                                <div class="row">
+                                        <a href="https://www.webmd.com/sleep-disorders/video/weighted-blankets-benefits-risks">
+                                        <img  src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/basics_weighted_blankets_video/493x335_basics_weighted_blankets_video.jpg?resize=250px:*" alt="logo" width="100px" height="100px"></a>
+                                        <div class="col s10">
+                                            <a href="https://www.webmd.com/sleep-disorders/video/weighted-blankets-benefits-risks"><br><h4 style="color: black">Can This Blanket Help Ease Your Anxiety</h4></a>
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                                <a href="https://www.webmd.com/diet/video/truth-about-drinking-water">
+                                                <img  src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/truth_about_drinking_water_video/493x335_truth_about_drinking_water_video.jpg?resize=250px:*" alt="logo" width="100px" height="100px"></a>
+                                                <div class="col s10">
+                                                    <a href="https://www.webmd.com/diet/video/truth-about-drinking-water"><br><h4 style="color: black">Should You Drink 8 Glasses of Water a Day?</h4></a>
+                                                </div>
+                                                </div>
+                            
+                            </div>    
+                            <div class="card-panel blue-grey">
+                                    <h4 style="color: navajowhite">HEART DISEASE HOME</h4><hr>
+                                    <a href="https://www.webmd.com/heart-disease/news-features">
+                                        <h6 style="color: navajowhite">News</h6><hr>
+                                    </a>
+                                    <a href="https://www.webmd.com/heart-disease/medical-reference-index">
+                                        <h6 style="color: navajowhite">Reference</h6><hr>
+                                    </a>
+                                    <a href="https://www.webmd.com/heart-disease/ss/slideshow-index">
+                                        <h6 style="color: navajowhite">Slideshows</h6><hr>
+                                    </a>  
+                                    <a href="https://www.webmd.com/heart-disease/quiz-index">
+                                        <h6 style="color: navajowhite">Quizzes</h6><hr>
+                                    </a> 
+                                    <a href="https://www.webmd.com/heart-disease/video/video-index">
+                                        <h6 style="color: navajowhite">Videos</h6><hr>
+                                    </a>
+                                    <a href="https://www.webmd.com/heart-disease/qa/default.htm">
+                                        <h6 style="color: navajowhite">Quetions & Answers</h6><hr>
+                                    </a>
+                                    <a href="https://messageboards.webmd.com/health-conditions/f/heart-health?tag=Heart%20Disease">
+                                        <h6 style="color: navajowhite">Message Board</h6><hr>
+                                    </a>  
+                                    <a href="http://127.0.0.1:5000/direction">
+                                        <h6 style="color: navajowhite">Locate</h6><hr>
+                                    </a> 
+                                    <h4 style="color: navajowhite">RELATED TO HEART DISEASE</h4><hr>   
+                                    <a href="https://www.webmd.com/heart-disease/arrhythmia-directory">
+                                        <h6 style="color: navajowhite">Abnormal Heart Rhythms</h6><hr>
+                                    </a>  
+                                    <a href="https://www.webmd.com/heart-disease/unstable-angina-directory">
+                                        <h6 style="color: navajowhite">Angina</h6><hr>
+                                    </a> 
+                                    <a href="https://www.webmd.com/heart-disease/atrial-fibrillation/default.htm">
+                                        <h6 style="color: navajowhite">Atrial Fibrillation</h6><hr>
+                                    </a>
+                                    <a href="https://www.webmd.com/cholesterol-management/default.htm">
+                                        <h6 style="color: navajowhite">Cholestrol Management</h6><hr>
+                                    </a> 
+                                    <a href="https://www.webmd.com/diabetes/guide/diabetes-link-to-heart-disease">
+                                        <h6 style="color: navajowhite">Diabetes</h6><hr>
+                                    </a> 
+                                    <a href="https://www.webmd.com/heart-disease/heart-failure/default.htm">
+                                        <h6 style="color: navajowhite">Heart Failure</h6><hr>
+                                    </a> 
+                                    <a href="https://www.webmd.com/hypertension-high-blood-pressure/default.htm">
+                                        <h6 style="color: navajowhite">High Blood Pressure</h6><hr>
+                                    </a>   
+                                    <a href="https://www.webmd.com/heart/metabolic-syndrome/default.htm">
+                                        <h6 style="color: navajowhite">Metabolic Syndrome</h6><hr>
+                                    </a>   
+                                    <a href="https://www.webmd.com/my-medicine/default.htm#how-to-use">
+                                        <h6 style="color: navajowhite">My Medicine</h6><hr>
+                                    </a>   
+                                    <a href="https://www.webmd.com/stroke/default.htm">
+                                        <h6 style="color: navajowhite">Stroke</h6><hr>
+                                    </a>   
+                                    <a href="https://www.webmd.com/heart-disease/directory-index">
+                                        <h6 style="color: navajowhite">More Related Topics</h6>
+                                    </a>                               
+                            </div><br><div style="color: grey"><hr style="height: 30px"></div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6mO-1o7wjyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Source : <a href="https://www.youtube.com/embed/6mO-1o7wjyU"> https://www.youtube.com/embed/6mO-1o7wjyU </a></p>
+                            <br><hr><br><hr><h4>SUBSCRIBE TO AYO SEHAT NEWSLETTERS</h4><br>
+                            <form action="http://127.0.0.1:5000/subscribe" method="POST">
+                                <select name="pilih" class="browser-default">
+                                        <option value="" disabled selected>SUBCRIBE NOW</option>
+                                        <option value="1">Men's Health</option>
+                                        <option value="2">Women's Health</option>
+                                        <option value="3">Food & Fitness</option>
+                                        <option value="4">Good Health</option>
+                                      </select>
+                                      <input name="email" type="text" placeholder="Enter email address" class="validate" ><br><br>
+                                          <input class="btn waves-effect waves-light" type="submit" value="SUBSCRIBE">
+                                    </div><br>
+                            </form><br><br><br>
+                            </div>
+                    </div>
+        
+            </div>
+            <div class="row">
+                <div class="col s12 ">
+                <div class="card-panel transparent">
+                    <p><b>TOP PICKS</b></p><hr>
+                    <a href="https://education.webmd.com/viewarticle/909595#content=0_0">
+                    <h4 style="color: black">Statins:What They Do, Side Effects, and What to Do if They Don't Work</h4>
+                    </a><hr>
+                    <a href="https://www.webmd.com/diabetes/blood-sugar-coach-17/diabetes-control/tips-diabetes-lifestyle">
+                    <h4 style="color: black">6 Changes You Can Make to Help Control Your Diabetes</h4>
+                    </a><hr>
+                    <a href="https://www.webmd.com/lung/pah-help-16/pah-best-self">
+                    <h4 style="color: black">Eat Right for Pulmonary Arterial Health</h4>
+                    </a><hr>
+                    <a href="https://education.webmd.com/viewarticle/909490#content=0_0">
+                    <h4 style="color: black">How Cholestrol Is Linked to Heart Disease, Heart Attack</h4>
+                    </a><hr>
+                    
+                </div>
+            </div>
+            </div>
+    <div class="card-panel blue-grey darken-4">
+        <div class="center-align">
+            <h5>
+                <span class="white-text text-white">
+                    <div style="font-family: 'Abel', sans-serif;">
+                    Call Us At
+                    </div>
+                </span>
+            </h5>
+            <h4>
+                <span class="blue-text text-darken-1">
+                    <div style="font-family: 'Abel', sans-serif;">
+                        8379.6775
+                    </div>
+                </span>
+            </h4>
+        </div>
+</div>
+</body>
+<footer class="page-footer blue darken-3"> 
+    <div class="footer-copyright">
+      <div class="container">
+      <center> © 2019 Ayo Sehat Clinic</center>
+      </div>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Predict Your Health !</title>
+    <style>
+        body{background-color: seashell}
+    </style>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body><br>
+    <div class="row">
+        <div class="col s3">
+            <a href="http://127.0.0.1:5000/mainmenu">
+                <div style="width: 340px; height: 180px; overflow: hidden">
+                    <img sclass="centered-and-cropped" src="http://127.0.0.1:5000/file/ayosehat.png" alt="" height="80" width="300">
+                </div>
+            </a>
+        </div>   
+    </div>
+    <center><h3><div style="font-family: 'Abel', sans-serif; size: 1.7cm">
+        PREDICT YOUR HEALTH
+    </div></h3></center>
+    <br><hr><hr><br>
+    <form action="http://127.0.0.1:5000/results" method="POST">
+        <center>
+        <div class="container">
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <input name="umur" id="umur" type="number" class="validate" >
+                <label for="umur">Age</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4 offset-s4">    
+                <select name="sex" id="sex" class="browser-default">
+                    <option value="" disabled selected>Choose your gender</option>
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <select name="cp" id="cp" class="browser-default">
+                    <option value="" disabled selected>Choose your chest pain</option>
+                    <option value="3">Typical Angina</option>
+                    <option value="1">Atypical Angina</option>
+                    <option value="2">Non-Anginal Pain</option>
+                    <option value="0">Asymptomatic</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <select name="fbs" id="fbs" class="browser-default">
+                    <option value="" disabled selected>Choose your fasting blood sugar</option>
+                    <option value="1">> 120 mg/dl</option>
+                    <option value="0">< 120 mg/dl </option>
+                </select>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <select name="rer" id="rer" class="browser-default">
+                        <option value="" disabled selected>Choose your resting electrocardiographic results</option>
+                        <option value="1">Normal</option>
+                     <option value="0">Having ST-T wave abnormality</option>
+                     <option value="2">Showing probable</option>
+                </select>
+            </div>
+        </div> 
+        <div class="row">
+                <div class="input-field col s4 offset-s4">
+                    <select name="eia" id="eia" class="browser-default">
+                        <option value="" disabled selected>Exercise induced angina</option>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                 </select>
+            </div>
+        </div>     
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <select name="slope" id="slope" class="browser-default">
+                        <option value="" disabled selected>The slope of the peak exercise ST segment</option>
+                         <option value="2">Upsloping</option>
+                         <option value="1">Flat</option>
+                         <option value="0">Downsloping</option>
+                </select>
+            </div>
+         </div>
+         <div class="row">
+            <div class="input-field col s4 offset-s4">
+                 <select name="vessels" id="vessels" class="browser-default">
+                            <option value="" disabled selected>Number of major vessels</option>
+                             <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+                <div class="input-field col s4 offset-s4">
+                     <select name="thl" id="thl" class="browser-default">
+                                <option value="" disabled selected>Thalassemia</option>
+                               <option value="1">Normal</option>
+                             <option value="0">Fixed defect</option>
+                         <option value="2">Reverseable defect</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <input name="tekananDarah" id="darah" type="number" class="validate">
+                <label for="darah">Resting blood pressure</label>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <input name="kolestrol" id="kolestrol" type="number" class="validate">
+                <label for="kolestrol">Cholestoral</label>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <input name="st" id="st" type="number" class="validate">
+                <label for="st">ST depression induced by exercise</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s4 offset-s4">
+                <input name="detak" id="detak" type="number" class="validate">
+                <label for="detak">Maximum heart rate</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s2 offset-s5">
+                <input type="submit" value="Predict">
+            </div>
+        </div></center>
+    </div>
+    </form><br><br>
+    <div class="card-panel blue-grey darken-4">
+            <div class="center-align">
+                <h5>
+                    <span class="white-text text-white">
+                        <div style="font-family: 'Abel', sans-serif;">
+                        Call Us At
+                        </div>
+                    </span>
+                </h5>
+                <h4>
+                    <span class="blue-text text-darken-1">
+                        <div style="font-family: 'Abel', sans-serif;">
+                            8379.6775
+                        </div>
+                    </span>
+                </h4>
+            </div>
+    </div>
+</body>
+<footer class="page-footer blue darken-3"> 
+        <div class="footer-copyright">
+          <div class="container">
+          <center> © 2019 Ayo Sehat Clinic</center>
+          </div>
+        </div>
+      </footer>
+</html>

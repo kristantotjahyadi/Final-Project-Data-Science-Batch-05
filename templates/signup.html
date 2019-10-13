@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp</title>
+    <!-- <style>
+        body,html{height: 100%;}
+        body{background-image: url(https://wallpapercave.com/wp/wp2581385.jpg)};
+        
+
+
+    </style> -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/a2a39ff18e.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+</head>
+<body>
+        <a href="http://127.0.0.1:5000/">
+            <div style="width: 340px; height: 180px; overflow: hidden">
+                <img sclass="centered-and-cropped" src="http://127.0.0.1:5000/file/ayosehat.png" alt="" height="80" width="300">
+            </div>
+          </a>
+    <div class="row">
+        <form class="col s12" action="http://127.0.0.1:5000/daftar" method="POST">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input name="nama_depan" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input name="nama_belakang" id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="email" id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="wrong" data-success="right">You can use letters, numbers & periods</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="password" id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="alamat" id="alamat" type="text" class="validate">
+                    <label for="alamat">Address</label>
+                </div>
+            </div>
+            <div>
+            <button class="btn waves-effect waves-light" type="submit" name="action" formaction="http://127.0.0.1:5000/daftar">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+              </div>
+        </form>
+    </div>
+</body>
+</html>

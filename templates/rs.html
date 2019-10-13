@@ -1,0 +1,2223 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c4118343e2d45dea9fd957bfa1b69d1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0c4118343e2d45dea9fd957bfa1b69d1" ></div>
+        
+</body>
+<script>    
+    
+            var map_0c4118343e2d45dea9fd957bfa1b69d1 = L.map(
+                "map_0c4118343e2d45dea9fd957bfa1b69d1",
+                {
+                    center: [-6.2295712, 106.759478],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e6e2592403a4f418313d9aa0b81bf86 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+            var marker_bc6eae0a846e4959bbd30a50c159d98f = L.marker(
+                [-6.1706719, 106.8686937],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_4daaed1c787e44de8f1e3ac017e8e9bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfdf393fe8574e86ab1f950970c9a86d = $(`<div id="html_bfdf393fe8574e86ab1f950970c9a86d" style="width: 100.0%; height: 100.0%;">Jl. Cempaka Putih Tengah I / 1</div>`)[0];
+            popup_4daaed1c787e44de8f1e3ac017e8e9bf.setContent(html_bfdf393fe8574e86ab1f950970c9a86d);
+        
+
+        marker_bc6eae0a846e4959bbd30a50c159d98f.bindPopup(popup_4daaed1c787e44de8f1e3ac017e8e9bf)
+        ;
+
+        
+    
+    
+            marker_bc6eae0a846e4959bbd30a50c159d98f.bindTooltip(
+                `<div>
+                     Islam Jakarta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ddc6945aa6b4091bd73e2a0e62187db = L.marker(
+                [-6.1732164, 106.8738952],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_741c48363ec04c329db9fa3cdec8b7d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75df293489554eed920e5ec681c28a7c = $(`<div id="html_75df293489554eed920e5ec681c28a7c" style="width: 100.0%; height: 100.0%;">Jl. Achmad Yani No. 2, By Pass</div>`)[0];
+            popup_741c48363ec04c329db9fa3cdec8b7d4.setContent(html_75df293489554eed920e5ec681c28a7c);
+        
+
+        marker_4ddc6945aa6b4091bd73e2a0e62187db.bindPopup(popup_741c48363ec04c329db9fa3cdec8b7d4)
+        ;
+
+        
+    
+    
+            marker_4ddc6945aa6b4091bd73e2a0e62187db.bindTooltip(
+                `<div>
+                     Pertamina Jaya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11be518b51e149808ff5692618ef5287 = L.marker(
+                [-6.1718125, 106.8082469],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_88a5ba60847c40dabb69d4a3a5dbbca2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b56a8d5e4ce4dcb96fb1d7300ab41c3 = $(`<div id="html_9b56a8d5e4ce4dcb96fb1d7300ab41c3" style="width: 100.0%; height: 100.0%;">Jl. Kyai Caringin No. 7</div>`)[0];
+            popup_88a5ba60847c40dabb69d4a3a5dbbca2.setContent(html_9b56a8d5e4ce4dcb96fb1d7300ab41c3);
+        
+
+        marker_11be518b51e149808ff5692618ef5287.bindPopup(popup_88a5ba60847c40dabb69d4a3a5dbbca2)
+        ;
+
+        
+    
+    
+            marker_11be518b51e149808ff5692618ef5287.bindTooltip(
+                `<div>
+                     Tarakan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b76d4083d6742d4b74d3e8983a06bc0 = L.marker(
+                [-6.1521143, 106.8563073],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_7dd92f0af8dc456782dbd48e4a8a3799 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8072ec9eefb45f2970af2fbd9c2501f = $(`<div id="html_f8072ec9eefb45f2970af2fbd9c2501f" style="width: 100.0%; height: 100.0%;">Jl. Landas Pacu Timur</div>`)[0];
+            popup_7dd92f0af8dc456782dbd48e4a8a3799.setContent(html_f8072ec9eefb45f2970af2fbd9c2501f);
+        
+
+        marker_8b76d4083d6742d4b74d3e8983a06bc0.bindPopup(popup_7dd92f0af8dc456782dbd48e4a8a3799)
+        ;
+
+        
+    
+    
+            marker_8b76d4083d6742d4b74d3e8983a06bc0.bindTooltip(
+                `<div>
+                     Mitra Kemayoran
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f262dc882574773a08ac0e8554c520d = L.marker(
+                [-6.1915545, 106.8396544],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_9e1702b773c84abe83e5f80f4271b73d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1f99a6f2b74c33ba31006d91106e51 = $(`<div id="html_6e1f99a6f2b74c33ba31006d91106e51" style="width: 100.0%; height: 100.0%;">Jl. Raden Saleh No. 40 </div>`)[0];
+            popup_9e1702b773c84abe83e5f80f4271b73d.setContent(html_6e1f99a6f2b74c33ba31006d91106e51);
+        
+
+        marker_6f262dc882574773a08ac0e8554c520d.bindPopup(popup_9e1702b773c84abe83e5f80f4271b73d)
+        ;
+
+        
+    
+    
+            marker_6f262dc882574773a08ac0e8554c520d.bindTooltip(
+                `<div>
+                     PGI Cikini
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77c702e81b0f4ccfbb5ba21527bcca5e = L.marker(
+                [-6.1898572, 106.8271129],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_f7521d7dbfb54bb9bb93211d366660f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3300d6cd030f4f148bd27899e36cc63e = $(`<div id="html_3300d6cd030f4f148bd27899e36cc63e" style="width: 100.0%; height: 100.0%;">Jl. HOS Cokroaminoto No. 31 - 33</div>`)[0];
+            popup_f7521d7dbfb54bb9bb93211d366660f9.setContent(html_3300d6cd030f4f148bd27899e36cc63e);
+        
+
+        marker_77c702e81b0f4ccfbb5ba21527bcca5e.bindPopup(popup_f7521d7dbfb54bb9bb93211d366660f9)
+        ;
+
+        
+    
+    
+            marker_77c702e81b0f4ccfbb5ba21527bcca5e.bindTooltip(
+                `<div>
+                     Abdi Waluyo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_065a29cc3d554ce5aed1968fbd9ba6cc = L.marker(
+                [-6.1869557, 106.83616],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_0767cd1d79184b36bb1cbfd8ce779455 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_256569b256a2439daacd718e7ce015ad = $(`<div id="html_256569b256a2439daacd718e7ce015ad" style="width: 100.0%; height: 100.0%;">Jl. Kali Pasir  No. 9</div>`)[0];
+            popup_0767cd1d79184b36bb1cbfd8ce779455.setContent(html_256569b256a2439daacd718e7ce015ad);
+        
+
+        marker_065a29cc3d554ce5aed1968fbd9ba6cc.bindPopup(popup_0767cd1d79184b36bb1cbfd8ce779455)
+        ;
+
+        
+    
+    
+            marker_065a29cc3d554ce5aed1968fbd9ba6cc.bindTooltip(
+                `<div>
+                     Menteng Mitra Afia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_758838b0687646ddb756a3a2543878d8 = L.marker(
+                [-6.147766, 106.8271403],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_45010be224df4cb289290544a6f767bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1875601d05f4aee9d155921602484ef = $(`<div id="html_f1875601d05f4aee9d155921602484ef" style="width: 100.0%; height: 100.0%;">Jl. Raya Mangga Besar Raya 137 / 139</div>`)[0];
+            popup_45010be224df4cb289290544a6f767bf.setContent(html_f1875601d05f4aee9d155921602484ef);
+        
+
+        marker_758838b0687646ddb756a3a2543878d8.bindPopup(popup_45010be224df4cb289290544a6f767bf)
+        ;
+
+        
+    
+    
+            marker_758838b0687646ddb756a3a2543878d8.bindTooltip(
+                `<div>
+                     Husada 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af4a6c6cfea04bf6ab22be41d61bbaf8 = L.marker(
+                [-6.197175, 106.844676],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_a8c4b1877f61486f80f1b37f3c3d22c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3182d0b8dad4b929a3f620da1471ac1 = $(`<div id="html_e3182d0b8dad4b929a3f620da1471ac1" style="width: 100.0%; height: 100.0%;">Jl. Diponegoro No. 71</div>`)[0];
+            popup_a8c4b1877f61486f80f1b37f3c3d22c4.setContent(html_e3182d0b8dad4b929a3f620da1471ac1);
+        
+
+        marker_af4a6c6cfea04bf6ab22be41d61bbaf8.bindPopup(popup_a8c4b1877f61486f80f1b37f3c3d22c4)
+        ;
+
+        
+    
+    
+            marker_af4a6c6cfea04bf6ab22be41d61bbaf8.bindTooltip(
+                `<div>
+                     Dr. Cipto Mangunkusumo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f8f2815d431455aafbcdb1c91a3107a = L.marker(
+                [-6.2942754, 106.8805877],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_cdc5136ffbcc418b8eae8d5f2b77ab42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d505224e1b3342358cfb42c764ec33a4 = $(`<div id="html_d505224e1b3342358cfb42c764ec33a4" style="width: 100.0%; height: 100.0%;">Jl. Kramat Raya No. 17 A</div>`)[0];
+            popup_cdc5136ffbcc418b8eae8d5f2b77ab42.setContent(html_d505224e1b3342358cfb42c764ec33a4);
+        
+
+        marker_9f8f2815d431455aafbcdb1c91a3107a.bindPopup(popup_cdc5136ffbcc418b8eae8d5f2b77ab42)
+        ;
+
+        
+    
+    
+            marker_9f8f2815d431455aafbcdb1c91a3107a.bindTooltip(
+                `<div>
+                     Moh. Ridwan Meuraksa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f668acfcda2e4283a4b13250e41d18b6 = L.marker(
+                [-6.1854763, 106.8418829],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_138e6e5de67b4a46ad35b311644e36f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d56e3e1bd5804540b63915a7952bd660 = $(`<div id="html_d56e3e1bd5804540b63915a7952bd660" style="width: 100.0%; height: 100.0%;">Jl. Kramat Raya No. 128</div>`)[0];
+            popup_138e6e5de67b4a46ad35b311644e36f5.setContent(html_d56e3e1bd5804540b63915a7952bd660);
+        
+
+        marker_f668acfcda2e4283a4b13250e41d18b6.bindPopup(popup_138e6e5de67b4a46ad35b311644e36f5)
+        ;
+
+        
+    
+    
+            marker_f668acfcda2e4283a4b13250e41d18b6.bindTooltip(
+                `<div>
+                     Kramat 128
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e722c32cdc8843fba1dc1bb8b8b0c37f = L.marker(
+                [-6.1961622, 106.8487306],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_b43c96bceeee430bbf4a34752fa4cd89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3029aef836ca48078060fe2b68c49f23 = $(`<div id="html_3029aef836ca48078060fe2b68c49f23" style="width: 100.0%; height: 100.0%;">Jl. Salemba Raya No. 41</div>`)[0];
+            popup_b43c96bceeee430bbf4a34752fa4cd89.setContent(html_3029aef836ca48078060fe2b68c49f23);
+        
+
+        marker_e722c32cdc8843fba1dc1bb8b8b0c37f.bindPopup(popup_b43c96bceeee430bbf4a34752fa4cd89)
+        ;
+
+        
+    
+    
+            marker_e722c32cdc8843fba1dc1bb8b8b0c37f.bindTooltip(
+                `<div>
+                     PK. Sint Carolus 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbc876005068471aadf26a40b032ed76 = L.marker(
+                [-6.1934324, 106.8498398],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_12fa866f49ef424ea199c65c3a2bb175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a723a6ca1364c5982c3ca882bb98db6 = $(`<div id="html_6a723a6ca1364c5982c3ca882bb98db6" style="width: 100.0%; height: 100.0%;">Jl. Salemba Tengah 26 - 28</div>`)[0];
+            popup_12fa866f49ef424ea199c65c3a2bb175.setContent(html_6a723a6ca1364c5982c3ca882bb98db6);
+        
+
+        marker_bbc876005068471aadf26a40b032ed76.bindPopup(popup_12fa866f49ef424ea199c65c3a2bb175)
+        ;
+
+        
+    
+    
+            marker_bbc876005068471aadf26a40b032ed76.bindTooltip(
+                `<div>
+                     Moh. Husni Thamrin Internasional Salemba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5c27d65274442f193ca74a62583fdee = L.marker(
+                [-6.1767925, 106.8349761],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_c78481cf42ce40eba27f7de76f8cfcf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_809e20e0497e41cfaeb6e0db44884094 = $(`<div id="html_809e20e0497e41cfaeb6e0db44884094" style="width: 100.0%; height: 100.0%;">Jl. Dr. Abdul Rachman Saleh 24</div>`)[0];
+            popup_c78481cf42ce40eba27f7de76f8cfcf6.setContent(html_809e20e0497e41cfaeb6e0db44884094);
+        
+
+        marker_d5c27d65274442f193ca74a62583fdee.bindPopup(popup_c78481cf42ce40eba27f7de76f8cfcf6)
+        ;
+
+        
+    
+    
+            marker_d5c27d65274442f193ca74a62583fdee.bindTooltip(
+                `<div>
+                     Gatot Subroto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_511057a1df12476188690eb6c08d96c6 = L.marker(
+                [-6.2090833, 106.8068374],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_17635f2fc2534ae3abd4f30e6613585e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3499e986b1474a2b87db7dbeda72dd9d = $(`<div id="html_3499e986b1474a2b87db7dbeda72dd9d" style="width: 100.0%; height: 100.0%;">Jl. Bendungan Hilir No. 17</div>`)[0];
+            popup_17635f2fc2534ae3abd4f30e6613585e.setContent(html_3499e986b1474a2b87db7dbeda72dd9d);
+        
+
+        marker_511057a1df12476188690eb6c08d96c6.bindPopup(popup_17635f2fc2534ae3abd4f30e6613585e)
+        ;
+
+        
+    
+    
+            marker_511057a1df12476188690eb6c08d96c6.bindTooltip(
+                `<div>
+                     DR. Mintohardjo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f53d6da86f60495cbc3e64afa3394661 = L.marker(
+                [-6.1936527, 106.8576246],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_ac955d77a10a44b3adeb6d0897b4756b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5602233c92e545df90ca497484d685c6 = $(`<div id="html_5602233c92e545df90ca497484d685c6" style="width: 100.0%; height: 100.0%;">Jl. Rawamangun No. 47</div>`)[0];
+            popup_ac955d77a10a44b3adeb6d0897b4756b.setContent(html_5602233c92e545df90ca497484d685c6);
+        
+
+        marker_f53d6da86f60495cbc3e64afa3394661.bindPopup(popup_ac955d77a10a44b3adeb6d0897b4756b)
+        ;
+
+        
+    
+    
+            marker_f53d6da86f60495cbc3e64afa3394661.bindTooltip(
+                `<div>
+                     Evasari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0485eef81264e07ab3dcbbea00840da = L.marker(
+                [-6.1803792, 106.8161784],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_b1322a60411c478ca0d1951d68da2e8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da17f048c8e44c71b6152384fae6587c = $(`<div id="html_da17f048c8e44c71b6152384fae6587c" style="width: 100.0%; height: 100.0%;">Jl. Budi Kemuliaan No. 25 </div>`)[0];
+            popup_b1322a60411c478ca0d1951d68da2e8d.setContent(html_da17f048c8e44c71b6152384fae6587c);
+        
+
+        marker_b0485eef81264e07ab3dcbbea00840da.bindPopup(popup_b1322a60411c478ca0d1951d68da2e8d)
+        ;
+
+        
+    
+    
+            marker_b0485eef81264e07ab3dcbbea00840da.bindTooltip(
+                `<div>
+                     Budi Kemuliaan 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01d5c57f5ef8473993cd0b1b531008e6 = L.marker(
+                [-6.1712735, 106.8131575],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_9ff506813eb44d08be1ec8ece5e18f07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7408b2e529e45108fb208e71a170699 = $(`<div id="html_a7408b2e529e45108fb208e71a170699" style="width: 100.0%; height: 100.0%;">Jl. Kesehatan No. 9</div>`)[0];
+            popup_9ff506813eb44d08be1ec8ece5e18f07.setContent(html_a7408b2e529e45108fb208e71a170699);
+        
+
+        marker_01d5c57f5ef8473993cd0b1b531008e6.bindPopup(popup_9ff506813eb44d08be1ec8ece5e18f07)
+        ;
+
+        
+    
+    
+            marker_01d5c57f5ef8473993cd0b1b531008e6.bindTooltip(
+                `<div>
+                     Profesor Nizar 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_892aa8a1436e4ccd8410777b6b1b46fa = L.marker(
+                [-6.3950304, 106.8120237],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_0b0236fecaf2423292de03e366b669cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7086b8fd4d564bf190a649b2124b912f = $(`<div id="html_7086b8fd4d564bf190a649b2124b912f" style="width: 100.0%; height: 100.0%;">Jl. Kaji No. 40</div>`)[0];
+            popup_0b0236fecaf2423292de03e366b669cc.setContent(html_7086b8fd4d564bf190a649b2124b912f);
+        
+
+        marker_892aa8a1436e4ccd8410777b6b1b46fa.bindPopup(popup_0b0236fecaf2423292de03e366b669cc)
+        ;
+
+        
+    
+    
+            marker_892aa8a1436e4ccd8410777b6b1b46fa.bindTooltip(
+                `<div>
+                     Dharma Sakti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1efdf28800ae47dfa1e01f0bb949b510 = L.marker(
+                [-6.1913566, 106.8257041],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_5f746bbd00e54dd9bd3cf03c92381e28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3045a536b30b49a59f5b7d047ef5789e = $(`<div id="html_3045a536b30b49a59f5b7d047ef5789e" style="width: 100.0%; height: 100.0%;">Jl. Gereja Theresia No. 22</div>`)[0];
+            popup_5f746bbd00e54dd9bd3cf03c92381e28.setContent(html_3045a536b30b49a59f5b7d047ef5789e);
+        
+
+        marker_1efdf28800ae47dfa1e01f0bb949b510.bindPopup(popup_5f746bbd00e54dd9bd3cf03c92381e28)
+        ;
+
+        
+    
+    
+            marker_1efdf28800ae47dfa1e01f0bb949b510.bindTooltip(
+                `<div>
+                     YPK Mandiri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0011f17e2f364ae89701d826897306b5 = L.marker(
+                [-6.1960455, 106.8345931],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_ae8a77d4c32a40b89dab209de245f332 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4164105970f74f298f57df5a1f28a464 = $(`<div id="html_4164105970f74f298f57df5a1f28a464" style="width: 100.0%; height: 100.0%;">Jl. Teuku Cik Ditiro No. 28</div>`)[0];
+            popup_ae8a77d4c32a40b89dab209de245f332.setContent(html_4164105970f74f298f57df5a1f28a464);
+        
+
+        marker_0011f17e2f364ae89701d826897306b5.bindPopup(popup_ae8a77d4c32a40b89dab209de245f332)
+        ;
+
+        
+    
+    
+            marker_0011f17e2f364ae89701d826897306b5.bindTooltip(
+                `<div>
+                     Bunda Jakarta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44a9143b40d84269a8760a438d45709d = L.marker(
+                [-6.2020408, 106.8446701],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_152a3790a8364fb3b138149934810585 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73ac1c186a3443878b2700708e744a28 = $(`<div id="html_73ac1c186a3443878b2700708e744a28" style="width: 100.0%; height: 100.0%;">Jl. Proklamasi  No. 43 </div>`)[0];
+            popup_152a3790a8364fb3b138149934810585.setContent(html_73ac1c186a3443878b2700708e744a28);
+        
+
+        marker_44a9143b40d84269a8760a438d45709d.bindPopup(popup_152a3790a8364fb3b138149934810585)
+        ;
+
+        
+    
+    
+            marker_44a9143b40d84269a8760a438d45709d.bindTooltip(
+                `<div>
+                     Proklamasi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cf931d3478a49a488a084e7f9baf28e = L.marker(
+                [-6.2063024, 106.8464683],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_23276e615d444dc1bc98b384e8601a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83773ea50d1e426eb4c669f3e86f1aea = $(`<div id="html_83773ea50d1e426eb4c669f3e86f1aea" style="width: 100.0%; height: 100.0%;">Jl. Tambak No. 18</div>`)[0];
+            popup_23276e615d444dc1bc98b384e8601a7e.setContent(html_83773ea50d1e426eb4c669f3e86f1aea);
+        
+
+        marker_9cf931d3478a49a488a084e7f9baf28e.bindPopup(popup_23276e615d444dc1bc98b384e8601a7e)
+        ;
+
+        
+    
+    
+            marker_9cf931d3478a49a488a084e7f9baf28e.bindTooltip(
+                `<div>
+                     Tambak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bc2a9641fcd47178965b4ef02504acd = L.marker(
+                [-6.2107846, 106.8163388],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_86103aa6643a494f8e9c207ecb1cf26f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31b9af309da64bc3a42e96b1cc43e469 = $(`<div id="html_31b9af309da64bc3a42e96b1cc43e469" style="width: 100.0%; height: 100.0%;">Jl. Jenderal Sudirman Kavling 86</div>`)[0];
+            popup_86103aa6643a494f8e9c207ecb1cf26f.setContent(html_31b9af309da64bc3a42e96b1cc43e469);
+        
+
+        marker_2bc2a9641fcd47178965b4ef02504acd.bindPopup(popup_86103aa6643a494f8e9c207ecb1cf26f)
+        ;
+
+        
+    
+    
+            marker_2bc2a9641fcd47178965b4ef02504acd.bindTooltip(
+                `<div>
+                     Sahid Sahirman Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9cbe89a163940d1a3c53a5b966da04c = L.marker(
+                [-6.1398952, 106.9187649],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_10816e5eb9fa48879fe4a06687ae2988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13d267e35c6c4ffd913fd56fe5dd318a = $(`<div id="html_13d267e35c6c4ffd913fd56fe5dd318a" style="width: 100.0%; height: 100.0%;">Jl. Tipar Cakung No. 5</div>`)[0];
+            popup_10816e5eb9fa48879fe4a06687ae2988.setContent(html_13d267e35c6c4ffd913fd56fe5dd318a);
+        
+
+        marker_c9cbe89a163940d1a3c53a5b966da04c.bindPopup(popup_10816e5eb9fa48879fe4a06687ae2988)
+        ;
+
+        
+    
+    
+            marker_c9cbe89a163940d1a3c53a5b966da04c.bindTooltip(
+                `<div>
+                     Islam Jakarta Sukapura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9918640ce2854212a9aaea8c650923ce = L.marker(
+                [-6.1661065, 106.9137625],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_a3508253279d49c991c757dfbeb8e6a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3df365e19ecd4a698c171a03edfb9137 = $(`<div id="html_3df365e19ecd4a698c171a03edfb9137" style="width: 100.0%; height: 100.0%;">Jl. Boulevard Timur Raya RT. 006 / 02</div>`)[0];
+            popup_a3508253279d49c991c757dfbeb8e6a1.setContent(html_3df365e19ecd4a698c171a03edfb9137);
+        
+
+        marker_9918640ce2854212a9aaea8c650923ce.bindPopup(popup_a3508253279d49c991c757dfbeb8e6a1)
+        ;
+
+        
+    
+    
+            marker_9918640ce2854212a9aaea8c650923ce.bindTooltip(
+                `<div>
+                     Gading Pluit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11529795b5474bb981a38e404ac2fef2 = L.marker(
+                [-6.1518623, 106.894903],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_f3acfb1a64a64a83a801ccbe802acbf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5434d60ab20b413197f5819b0531bd50 = $(`<div id="html_5434d60ab20b413197f5819b0531bd50" style="width: 100.0%; height: 100.0%;">Jl. Bukit Gading Raya Kav. II</div>`)[0];
+            popup_f3acfb1a64a64a83a801ccbe802acbf0.setContent(html_5434d60ab20b413197f5819b0531bd50);
+        
+
+        marker_11529795b5474bb981a38e404ac2fef2.bindPopup(popup_f3acfb1a64a64a83a801ccbe802acbf0)
+        ;
+
+        
+    
+    
+            marker_11529795b5474bb981a38e404ac2fef2.bindTooltip(
+                `<div>
+                     Mitra Keluarga Kelapa Gading
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_272edc1c892c43018fe8bcfbaa6448e3 = L.marker(
+                [-6.1087163, 106.8977859],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_7df37c6433364ef184fa9dcf6e852270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6805609d626434a9c9f2df232bf63bb = $(`<div id="html_e6805609d626434a9c9f2df232bf63bb" style="width: 100.0%; height: 100.0%;">Jl. Deli No. 4  Tanjung Priok</div>`)[0];
+            popup_7df37c6433364ef184fa9dcf6e852270.setContent(html_e6805609d626434a9c9f2df232bf63bb);
+        
+
+        marker_272edc1c892c43018fe8bcfbaa6448e3.bindPopup(popup_7df37c6433364ef184fa9dcf6e852270)
+        ;
+
+        
+    
+    
+            marker_272edc1c892c43018fe8bcfbaa6448e3.bindTooltip(
+                `<div>
+                     Koja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb497048f5484cf192c6376c73261ecf = L.marker(
+                [-6.1247797, 106.9155201],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_e175914a9bbc49ec8a17b521c139d8eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_474f5b38c1ee4868a028bb554f2d7938 = $(`<div id="html_474f5b38c1ee4868a028bb554f2d7938" style="width: 100.0%; height: 100.0%;">Jl. Kramat Jaya, Tanjung Priok</div>`)[0];
+            popup_e175914a9bbc49ec8a17b521c139d8eb.setContent(html_474f5b38c1ee4868a028bb554f2d7938);
+        
+
+        marker_eb497048f5484cf192c6376c73261ecf.bindPopup(popup_e175914a9bbc49ec8a17b521c139d8eb)
+        ;
+
+        
+    
+    
+            marker_eb497048f5484cf192c6376c73261ecf.bindTooltip(
+                `<div>
+                     Pelabuhan Jakarta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50bfb69ef5cd455ba72e6c801ddf13b1 = L.marker(
+                [-6.1292271, 106.9042544],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_48ee3edfe24943d79d1027c934beba58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecab878c140742d084b197f9c30eb0e2 = $(`<div id="html_ecab878c140742d084b197f9c30eb0e2" style="width: 100.0%; height: 100.0%;">Jl. Raya Plumpang Semper No. 19  RT.006 / RW.015</div>`)[0];
+            popup_48ee3edfe24943d79d1027c934beba58.setContent(html_ecab878c140742d084b197f9c30eb0e2);
+        
+
+        marker_50bfb69ef5cd455ba72e6c801ddf13b1.bindPopup(popup_48ee3edfe24943d79d1027c934beba58)
+        ;
+
+        
+    
+    
+            marker_50bfb69ef5cd455ba72e6c801ddf13b1.bindTooltip(
+                `<div>
+                     Mulyasari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e873f0bb5da0467494a4c08afce83e62 = L.marker(
+                [-6.11182, 106.7508239],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_6f8d874c400a4370bf3f22fb1f836acf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0e85496fd5741b6be4d025cfbb19fb4 = $(`<div id="html_a0e85496fd5741b6be4d025cfbb19fb4" style="width: 100.0%; height: 100.0%;">Jl. Pantai Indah Utara 3 Sek. Utr. Tmr Blok T</div>`)[0];
+            popup_6f8d874c400a4370bf3f22fb1f836acf.setContent(html_a0e85496fd5741b6be4d025cfbb19fb4);
+        
+
+        marker_e873f0bb5da0467494a4c08afce83e62.bindPopup(popup_6f8d874c400a4370bf3f22fb1f836acf)
+        ;
+
+        
+    
+    
+            marker_e873f0bb5da0467494a4c08afce83e62.bindTooltip(
+                `<div>
+                     Pantai Indah Kapuk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_118ee380d5814fc185473427b3960c9d = L.marker(
+                [-6.125978, 106.7910818],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_fb4bb01e422441e98ee3622f67e7cade = L.popup({"maxWidth": "100%"});
+
+        
+            var html_781570e7e72348cbbfe5b6684913c9aa = $(`<div id="html_781570e7e72348cbbfe5b6684913c9aa" style="width: 100.0%; height: 100.0%;">Jl. Pluit Raya No. 2</div>`)[0];
+            popup_fb4bb01e422441e98ee3622f67e7cade.setContent(html_781570e7e72348cbbfe5b6684913c9aa);
+        
+
+        marker_118ee380d5814fc185473427b3960c9d.bindPopup(popup_fb4bb01e422441e98ee3622f67e7cade)
+        ;
+
+        
+    
+    
+            marker_118ee380d5814fc185473427b3960c9d.bindTooltip(
+                `<div>
+                     Atma Jaya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81dbfe3c427a4637bdbe6396f76f9a0e = L.marker(
+                [-6.1258927, 106.7977286],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_059c31f6051e44e1876334d61c9efd73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f9ff903a4f545adbd66100adecd2a5c = $(`<div id="html_2f9ff903a4f545adbd66100adecd2a5c" style="width: 100.0%; height: 100.0%;">Jl. Raya Pluit Selatan No. 2</div>`)[0];
+            popup_059c31f6051e44e1876334d61c9efd73.setContent(html_2f9ff903a4f545adbd66100adecd2a5c);
+        
+
+        marker_81dbfe3c427a4637bdbe6396f76f9a0e.bindPopup(popup_059c31f6051e44e1876334d61c9efd73)
+        ;
+
+        
+    
+    
+            marker_81dbfe3c427a4637bdbe6396f76f9a0e.bindTooltip(
+                `<div>
+                     Pluit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09f188a45388492cb559711fcc60c966 = L.marker(
+                [-6.1291153, 106.8880115],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_350cee383b534267b75b53343273ae43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7f4a99917cb41ae9f069e318dd6da7b = $(`<div id="html_e7f4a99917cb41ae9f069e318dd6da7b" style="width: 100.0%; height: 100.0%;">Jl Sungai Bambu  No. 5</div>`)[0];
+            popup_350cee383b534267b75b53343273ae43.setContent(html_e7f4a99917cb41ae9f069e318dd6da7b);
+        
+
+        marker_09f188a45388492cb559711fcc60c966.bindPopup(popup_350cee383b534267b75b53343273ae43)
+        ;
+
+        
+    
+    
+            marker_09f188a45388492cb559711fcc60c966.bindTooltip(
+                `<div>
+                     Puri Medika
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d3462d857bb44f5907145562bf81a06 = L.marker(
+                [-6.1390671, 106.8593156],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_b2a2c4fef82b4e0ab6a4efa3dc58b088 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dced3c5feab64e8bbeda9fa76c88eea2 = $(`<div id="html_dced3c5feab64e8bbeda9fa76c88eea2" style="width: 100.0%; height: 100.0%;">Jl. Agung Utara Raya Blok A No. 1</div>`)[0];
+            popup_b2a2c4fef82b4e0ab6a4efa3dc58b088.setContent(html_dced3c5feab64e8bbeda9fa76c88eea2);
+        
+
+        marker_4d3462d857bb44f5907145562bf81a06.bindPopup(popup_b2a2c4fef82b4e0ab6a4efa3dc58b088)
+        ;
+
+        
+    
+    
+            marker_4d3462d857bb44f5907145562bf81a06.bindTooltip(
+                `<div>
+                     Satya Negara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33d378f702ce4fce87c8582c69a40c48 = L.marker(
+                [-6.13945, 106.8632816],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_53559c4d21ad448dba94243760f51149 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26c1b0bc83cb4f129628522171e44277 = $(`<div id="html_26c1b0bc83cb4f129628522171e44277" style="width: 100.0%; height: 100.0%;">Jl. Danau Sunter Utara Raya No. 1</div>`)[0];
+            popup_53559c4d21ad448dba94243760f51149.setContent(html_26c1b0bc83cb4f129628522171e44277);
+        
+
+        marker_33d378f702ce4fce87c8582c69a40c48.bindPopup(popup_53559c4d21ad448dba94243760f51149)
+        ;
+
+        
+    
+    
+            marker_33d378f702ce4fce87c8582c69a40c48.bindTooltip(
+                `<div>
+                     Royal Progress
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5363b82b78ac42fca7f723cec3bc713e = L.marker(
+                [-6.1103833, 106.8872214],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_54c9a5dd44da477e92b12313293554ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb2527e1cf754d68bbc2f016d321cf72 = $(`<div id="html_fb2527e1cf754d68bbc2f016d321cf72" style="width: 100.0%; height: 100.0%;">Jl. Enggano No. 10</div>`)[0];
+            popup_54c9a5dd44da477e92b12313293554ee.setContent(html_fb2527e1cf754d68bbc2f016d321cf72);
+        
+
+        marker_5363b82b78ac42fca7f723cec3bc713e.bindPopup(popup_54c9a5dd44da477e92b12313293554ee)
+        ;
+
+        
+    
+    
+            marker_5363b82b78ac42fca7f723cec3bc713e.bindTooltip(
+                `<div>
+                     Port Medical Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03324605fc264ed4a7a92b18bc790390 = L.marker(
+                [-6.1123011, 106.8800114],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_ff02eb0e82684517a0bc768c277c8107 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e91b4143cb644e880881b09c6549748 = $(`<div id="html_0e91b4143cb644e880881b09c6549748" style="width: 100.0%; height: 100.0%;">Jl. Tawes No. 18-20 </div>`)[0];
+            popup_ff02eb0e82684517a0bc768c277c8107.setContent(html_0e91b4143cb644e880881b09c6549748);
+        
+
+        marker_03324605fc264ed4a7a92b18bc790390.bindPopup(popup_ff02eb0e82684517a0bc768c277c8107)
+        ;
+
+        
+    
+    
+            marker_03324605fc264ed4a7a92b18bc790390.bindTooltip(
+                `<div>
+                     Sukmul Sisma Medika
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_612f2acf84e04451bd659030d8170cdd = L.marker(
+                [-6.13358, 106.7881058],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_710d48e6bcf34a90b1e28a92913f076f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a157575052c45fb8a517390605f703b = $(`<div id="html_3a157575052c45fb8a517390605f703b" style="width: 100.0%; height: 100.0%;">Pluit Mas I Blok A No. 2A - 5A</div>`)[0];
+            popup_710d48e6bcf34a90b1e28a92913f076f.setContent(html_3a157575052c45fb8a517390605f703b);
+        
+
+        marker_612f2acf84e04451bd659030d8170cdd.bindPopup(popup_710d48e6bcf34a90b1e28a92913f076f)
+        ;
+
+        
+    
+    
+            marker_612f2acf84e04451bd659030d8170cdd.bindTooltip(
+                `<div>
+                     Family
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8391d4b842784f3680581318ee613eb7 = L.marker(
+                [-6.1561541, 106.9209798],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_5c5836dca1924f90af036b8cc91db63b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9dc015ab18141cdbd0f8b5195cacdf5 = $(`<div id="html_b9dc015ab18141cdbd0f8b5195cacdf5" style="width: 100.0%; height: 100.0%;">Jl. Siak J-5 No. 14</div>`)[0];
+            popup_5c5836dca1924f90af036b8cc91db63b.setContent(html_b9dc015ab18141cdbd0f8b5195cacdf5);
+        
+
+        marker_8391d4b842784f3680581318ee613eb7.bindPopup(popup_5c5836dca1924f90af036b8cc91db63b)
+        ;
+
+        
+    
+    
+            marker_8391d4b842784f3680581318ee613eb7.bindTooltip(
+                `<div>
+                     Firdaus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ba52f1931434a369ba87178449eb654 = L.marker(
+                [-6.1970714, 106.7904872],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_f38eaf4133c040cf95ac23c7c37dcf9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bef8526babe407fa7434842e1376f82 = $(`<div id="html_1bef8526babe407fa7434842e1376f82" style="width: 100.0%; height: 100.0%;">Jl. Cendrawasih No.1 Komp. Dep. Han, Mabes TNI  Slipi</div>`)[0];
+            popup_f38eaf4133c040cf95ac23c7c37dcf9c.setContent(html_1bef8526babe407fa7434842e1376f82);
+        
+
+        marker_9ba52f1931434a369ba87178449eb654.bindPopup(popup_f38eaf4133c040cf95ac23c7c37dcf9c)
+        ;
+
+        
+    
+    
+            marker_9ba52f1931434a369ba87178449eb654.bindTooltip(
+                `<div>
+                     Patria IKKT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_617b964ad8c84aa180892258bbc2a463 = L.marker(
+                [-6.1667042, 106.7832139],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_ffc14bcb8654475f9c5fbd4f98ed07f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41058f10416444b2ae47996ac14eb626 = $(`<div id="html_41058f10416444b2ae47996ac14eb626" style="width: 100.0%; height: 100.0%;">Jl. Daan Mogot No. 34</div>`)[0];
+            popup_ffc14bcb8654475f9c5fbd4f98ed07f3.setContent(html_41058f10416444b2ae47996ac14eb626);
+        
+
+        marker_617b964ad8c84aa180892258bbc2a463.bindPopup(popup_ffc14bcb8654475f9c5fbd4f98ed07f3)
+        ;
+
+        
+    
+    
+            marker_617b964ad8c84aa180892258bbc2a463.bindTooltip(
+                `<div>
+                     Royal Taruma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4fec484b08041aea680995b1ec2eb0b = L.marker(
+                [-6.2034426, 106.7553203],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_dcd9c8b231414e8b9b4be00f8e1f6906 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8ef6e86298249fe8dd43e180733fd82 = $(`<div id="html_f8ef6e86298249fe8dd43e180733fd82" style="width: 100.0%; height: 100.0%;">Jl. Kyai Tapa No. 1</div>`)[0];
+            popup_dcd9c8b231414e8b9b4be00f8e1f6906.setContent(html_f8ef6e86298249fe8dd43e180733fd82);
+        
+
+        marker_e4fec484b08041aea680995b1ec2eb0b.bindPopup(popup_dcd9c8b231414e8b9b4be00f8e1f6906)
+        ;
+
+        
+    
+    
+            marker_e4fec484b08041aea680995b1ec2eb0b.bindTooltip(
+                `<div>
+                     Sumber Waras 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed3fa4d61c214270bc7c31b5435bfcc4 = L.marker(
+                [-6.2032696, 106.7551486],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_dce84e3f20934d1b8b83e466318e43a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb97cf0cf6f4499fa8c85ffeb8890838 = $(`<div id="html_cb97cf0cf6f4499fa8c85ffeb8890838" style="width: 100.0%; height: 100.0%;">Jl. Raya Pejuangan Kav. 8</div>`)[0];
+            popup_dce84e3f20934d1b8b83e466318e43a5.setContent(html_cb97cf0cf6f4499fa8c85ffeb8890838);
+        
+
+        marker_ed3fa4d61c214270bc7c31b5435bfcc4.bindPopup(popup_dce84e3f20934d1b8b83e466318e43a5)
+        ;
+
+        
+    
+    
+            marker_ed3fa4d61c214270bc7c31b5435bfcc4.bindTooltip(
+                `<div>
+                     Siloam Hospitals Kebon Jeruk/Siloam Graha Medika
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75b4719637aa418ea9428844ff2fbd3c = L.marker(
+                [-6.1875625, 106.7596142],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_d5f2239558544148b5f1c32312f32a8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83db26ec72824d94abf585597ecd550e = $(`<div id="html_83db26ec72824d94abf585597ecd550e" style="width: 100.0%; height: 100.0%;">Jl. Kedoya Raya / Al-Kamal No. 2</div>`)[0];
+            popup_d5f2239558544148b5f1c32312f32a8a.setContent(html_83db26ec72824d94abf585597ecd550e);
+        
+
+        marker_75b4719637aa418ea9428844ff2fbd3c.bindPopup(popup_d5f2239558544148b5f1c32312f32a8a)
+        ;
+
+        
+    
+    
+            marker_75b4719637aa418ea9428844ff2fbd3c.bindTooltip(
+                `<div>
+                     Puri Mandiri Kedoya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b38bc5e7d034694a4325ff6c2eab9da = L.marker(
+                [-6.1684066, 106.7627383],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_f79065dde2d1477a9853d9ead083a06f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f221229c33f4e048f2339d142952f95 = $(`<div id="html_3f221229c33f4e048f2339d142952f95" style="width: 100.0%; height: 100.0%;">Jl. Panjang Arteri 26</div>`)[0];
+            popup_f79065dde2d1477a9853d9ead083a06f.setContent(html_3f221229c33f4e048f2339d142952f95);
+        
+
+        marker_2b38bc5e7d034694a4325ff6c2eab9da.bindPopup(popup_f79065dde2d1477a9853d9ead083a06f)
+        ;
+
+        
+    
+    
+            marker_2b38bc5e7d034694a4325ff6c2eab9da.bindTooltip(
+                `<div>
+                     Grha Kedoya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_047adcad7ad2449caf106faef8a86529 = L.marker(
+                [-6.2181536, 106.7757615],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_39dd26c1ae164ddabb0ddf244d768fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4cccb2591964f578387989e3e5946ba = $(`<div id="html_b4cccb2591964f578387989e3e5946ba" style="width: 100.0%; height: 100.0%;">Jl. Raya Kebayoran Lama No. 64 </div>`)[0];
+            popup_39dd26c1ae164ddabb0ddf244d768fa6.setContent(html_b4cccb2591964f578387989e3e5946ba);
+        
+
+        marker_047adcad7ad2449caf106faef8a86529.bindPopup(popup_39dd26c1ae164ddabb0ddf244d768fa6)
+        ;
+
+        
+    
+    
+            marker_047adcad7ad2449caf106faef8a86529.bindTooltip(
+                `<div>
+                     Medika Permata Hijau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_540393a527b4466eaf170a49d1afe9e6 = L.marker(
+                [-6.1861811, 106.7331812],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_205f1afbaf0e422eb14a7569f24fd8eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df2bc41b2a914b0cb19b460ded5dbba4 = $(`<div id="html_df2bc41b2a914b0cb19b460ded5dbba4" style="width: 100.0%; height: 100.0%;">Jl. Puri Indah Raya  Blok S-2</div>`)[0];
+            popup_205f1afbaf0e422eb14a7569f24fd8eb.setContent(html_df2bc41b2a914b0cb19b460ded5dbba4);
+        
+
+        marker_540393a527b4466eaf170a49d1afe9e6.bindPopup(popup_205f1afbaf0e422eb14a7569f24fd8eb)
+        ;
+
+        
+    
+    
+            marker_540393a527b4466eaf170a49d1afe9e6.bindTooltip(
+                `<div>
+                     Puri Indah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69dab61d26fb4b538fba4a1beb43d204 = L.marker(
+                [-6.193058, 106.8015803],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_52c9eb5443ae4f9d8be2d7e814135f6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e845694b8b34ad79b8d4c990dd4bc59 = $(`<div id="html_0e845694b8b34ad79b8d4c990dd4bc59" style="width: 100.0%; height: 100.0%;">Jl. Aip II K. S. Tubun No. 92-94</div>`)[0];
+            popup_52c9eb5443ae4f9d8be2d7e814135f6c.setContent(html_0e845694b8b34ad79b8d4c990dd4bc59);
+        
+
+        marker_69dab61d26fb4b538fba4a1beb43d204.bindPopup(popup_52c9eb5443ae4f9d8be2d7e814135f6c)
+        ;
+
+        
+    
+    
+            marker_69dab61d26fb4b538fba4a1beb43d204.bindTooltip(
+                `<div>
+                     Pelni Petamburan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c461034e50b4ab6a5474aa9f45f857a = L.marker(
+                [-6.1996305, 106.7983714],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_fcfeee7123764494aa5c46f05850f5f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6ecf3c707fb40359d8decd95f5c2735 = $(`<div id="html_d6ecf3c707fb40359d8decd95f5c2735" style="width: 100.0%; height: 100.0%;">Jl. Aipda K. S. Tubun No. 79</div>`)[0];
+            popup_fcfeee7123764494aa5c46f05850f5f6.setContent(html_d6ecf3c707fb40359d8decd95f5c2735);
+        
+
+        marker_3c461034e50b4ab6a5474aa9f45f857a.bindPopup(popup_fcfeee7123764494aa5c46f05850f5f6)
+        ;
+
+        
+    
+    
+            marker_3c461034e50b4ab6a5474aa9f45f857a.bindTooltip(
+                `<div>
+                     Bhakti Mulia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e340b1fe15aa45fdaa81786139944c73 = L.marker(
+                [-6.1856542, 106.7692912],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_8ab049d8a496479cb23fdab86eed94e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9469307e216645bf82962a113bd80992 = $(`<div id="html_9469307e216645bf82962a113bd80992" style="width: 100.0%; height: 100.0%;">Jl. Duri Raya No. 22</div>`)[0];
+            popup_8ab049d8a496479cb23fdab86eed94e8.setContent(html_9469307e216645bf82962a113bd80992);
+        
+
+        marker_e340b1fe15aa45fdaa81786139944c73.bindPopup(popup_8ab049d8a496479cb23fdab86eed94e8)
+        ;
+
+        
+    
+    
+            marker_e340b1fe15aa45fdaa81786139944c73.bindTooltip(
+                `<div>
+                     Bina Sehat Mandiri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76acc8f0b1f94c01b8e9178c521256be = L.marker(
+                [-6.1867272, 106.7957638],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_1a956efd2d994ff3be98e648df0a28f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82749cf0124544db891429613ad6ae24 = $(`<div id="html_82749cf0124544db891429613ad6ae24" style="width: 100.0%; height: 100.0%;">Jl. Letjen S. Parman Kav. 84-86</div>`)[0];
+            popup_1a956efd2d994ff3be98e648df0a28f0.setContent(html_82749cf0124544db891429613ad6ae24);
+        
+
+        marker_76acc8f0b1f94c01b8e9178c521256be.bindPopup(popup_1a956efd2d994ff3be98e648df0a28f0)
+        ;
+
+        
+    
+    
+            marker_76acc8f0b1f94c01b8e9178c521256be.bindTooltip(
+                `<div>
+                     Dharmais
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6621800e9ab34b0ba99caa6722c35211 = L.marker(
+                [-6.1854593, 106.7965425],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_51f544367d62433b9eeb32e699963a24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7a03e39598443b7bd3463968ff6205f = $(`<div id="html_b7a03e39598443b7bd3463968ff6205f" style="width: 100.0%; height: 100.0%;">Jl. LetJen S. Parman Kav. 87</div>`)[0];
+            popup_51f544367d62433b9eeb32e699963a24.setContent(html_b7a03e39598443b7bd3463968ff6205f);
+        
+
+        marker_6621800e9ab34b0ba99caa6722c35211.bindPopup(popup_51f544367d62433b9eeb32e699963a24)
+        ;
+
+        
+    
+    
+            marker_6621800e9ab34b0ba99caa6722c35211.bindTooltip(
+                `<div>
+                     Harapan Kita 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_239d703f061e4b9bac8805d273c3802f = L.marker(
+                [-6.2031157, 106.770417],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_f0ff08800fe1447e86c09ebc9b072c23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b71150a5ea0c440c898eff51e59d74c0 = $(`<div id="html_b71150a5ea0c440c898eff51e59d74c0" style="width: 100.0%; height: 100.0%;">Jl. Anggrek No. 2 B</div>`)[0];
+            popup_f0ff08800fe1447e86c09ebc9b072c23.setContent(html_b71150a5ea0c440c898eff51e59d74c0);
+        
+
+        marker_239d703f061e4b9bac8805d273c3802f.bindPopup(popup_f0ff08800fe1447e86c09ebc9b072c23)
+        ;
+
+        
+    
+    
+            marker_239d703f061e4b9bac8805d273c3802f.bindTooltip(
+                `<div>
+                     Anggrek Mas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f585259db5d747acb05b8abcf8c39bd0 = L.marker(
+                [-6.2812646, 106.7936042],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_1efdb99fd4e541b5ba62556561a410e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccf3ec55174d4b01b960f91d4b75762d = $(`<div id="html_ccf3ec55174d4b01b960f91d4b75762d" style="width: 100.0%; height: 100.0%;">Jl. RS Fatmawati No. 80 - 82</div>`)[0];
+            popup_1efdb99fd4e541b5ba62556561a410e9.setContent(html_ccf3ec55174d4b01b960f91d4b75762d);
+        
+
+        marker_f585259db5d747acb05b8abcf8c39bd0.bindPopup(popup_1efdb99fd4e541b5ba62556561a410e9)
+        ;
+
+        
+    
+    
+            marker_f585259db5d747acb05b8abcf8c39bd0.bindTooltip(
+                `<div>
+                     Setia Mitra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cefd2bf5576e48d3a41f62179f34970c = L.marker(
+                [-6.2951863, 106.7952599],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_d3a481811e214153be897ef0e271ec08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a586d2be459403db4ae042fa5e82d1b = $(`<div id="html_5a586d2be459403db4ae042fa5e82d1b" style="width: 100.0%; height: 100.0%;">Jl. RS. Fatmawati</div>`)[0];
+            popup_d3a481811e214153be897ef0e271ec08.setContent(html_5a586d2be459403db4ae042fa5e82d1b);
+        
+
+        marker_cefd2bf5576e48d3a41f62179f34970c.bindPopup(popup_d3a481811e214153be897ef0e271ec08)
+        ;
+
+        
+    
+    
+            marker_cefd2bf5576e48d3a41f62179f34970c.bindTooltip(
+                `<div>
+                     Fatmawati 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54043b1040f34b878631392f66df2be6 = L.marker(
+                [-6.2951623, 106.7875753],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_922a7e9a7b3942a2a7284b0a59c3d0dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8edb690974d24b02b253d5b7bf9b6e10 = $(`<div id="html_8edb690974d24b02b253d5b7bf9b6e10" style="width: 100.0%; height: 100.0%;">Jl. Lebak Bulus 1</div>`)[0];
+            popup_922a7e9a7b3942a2a7284b0a59c3d0dc.setContent(html_8edb690974d24b02b253d5b7bf9b6e10);
+        
+
+        marker_54043b1040f34b878631392f66df2be6.bindPopup(popup_922a7e9a7b3942a2a7284b0a59c3d0dc)
+        ;
+
+        
+    
+    
+            marker_54043b1040f34b878631392f66df2be6.bindTooltip(
+                `<div>
+                     Mayapada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58c1fbb0278b434aac9b78aaf86804c5 = L.marker(
+                [-6.3146981, 106.7916377],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_b42de294d52b40ef8bbedf96777bab40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c53de63e7be4c668566d0596b8ab770 = $(`<div id="html_7c53de63e7be4c668566d0596b8ab770" style="width: 100.0%; height: 100.0%;">Jl. RS Fatmawati No. 74 </div>`)[0];
+            popup_b42de294d52b40ef8bbedf96777bab40.setContent(html_7c53de63e7be4c668566d0596b8ab770);
+        
+
+        marker_58c1fbb0278b434aac9b78aaf86804c5.bindPopup(popup_b42de294d52b40ef8bbedf96777bab40)
+        ;
+
+        
+    
+    
+            marker_58c1fbb0278b434aac9b78aaf86804c5.bindTooltip(
+                `<div>
+                     Prikasih
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89a9806f3dc74ad09d505b9ff635b674 = L.marker(
+                [-6.3446908, 106.8117116],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_affb9b6db467488197c7233c24d79336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a3fe733999540e3bd3f98bbc350cd67 = $(`<div id="html_6a3fe733999540e3bd3f98bbc350cd67" style="width: 100.0%; height: 100.0%;">Jl. Warung Silah No. 1</div>`)[0];
+            popup_affb9b6db467488197c7233c24d79336.setContent(html_6a3fe733999540e3bd3f98bbc350cd67);
+        
+
+        marker_89a9806f3dc74ad09d505b9ff635b674.bindPopup(popup_affb9b6db467488197c7233c24d79336)
+        ;
+
+        
+    
+    
+            marker_89a9806f3dc74ad09d505b9ff635b674.bindTooltip(
+                `<div>
+                     Ali Sibroh Malisi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b39a107ad6ab4e99a785a978d7615cc3 = L.marker(
+                [-6.3358322, 106.8213384],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_434bea790c4e44e1814c08c37a19429b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_820cac2fc4da456e9860de2bda568127 = $(`<div id="html_820cac2fc4da456e9860de2bda568127" style="width: 100.0%; height: 100.0%;">Jl. Sirsak No. 21</div>`)[0];
+            popup_434bea790c4e44e1814c08c37a19429b.setContent(html_820cac2fc4da456e9860de2bda568127);
+        
+
+        marker_b39a107ad6ab4e99a785a978d7615cc3.bindPopup(popup_434bea790c4e44e1814c08c37a19429b)
+        ;
+
+        
+    
+    
+            marker_b39a107ad6ab4e99a785a978d7615cc3.bindTooltip(
+                `<div>
+                     Zahirah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cc81f83896a4a5882407025ba46439a = L.marker(
+                [-6.2399429, 106.7911125],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_84b8406d6a81435cb5127ce8fc026e92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_585de7c3036841bcbc36c64a41cccee4 = $(`<div id="html_585de7c3036841bcbc36c64a41cccee4" style="width: 100.0%; height: 100.0%;">Jl. Kyai Maja No. 43</div>`)[0];
+            popup_84b8406d6a81435cb5127ce8fc026e92.setContent(html_585de7c3036841bcbc36c64a41cccee4);
+        
+
+        marker_1cc81f83896a4a5882407025ba46439a.bindPopup(popup_84b8406d6a81435cb5127ce8fc026e92)
+        ;
+
+        
+    
+    
+            marker_1cc81f83896a4a5882407025ba46439a.bindTooltip(
+                `<div>
+                     Pusat Pertamina 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3de3add2c3e74da2997e2c73888069cd = L.marker(
+                [-6.2437902, 106.7202852],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_2543da122a2744b6b336152a9eeb309f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1684cf32ea074fc18448e602dcdd5a12 = $(`<div id="html_1684cf32ea074fc18448e602dcdd5a12" style="width: 100.0%; height: 100.0%;">Jl. Metro Duta Kav. UE,  Pondok Indah</div>`)[0];
+            popup_2543da122a2744b6b336152a9eeb309f.setContent(html_1684cf32ea074fc18448e602dcdd5a12);
+        
+
+        marker_3de3add2c3e74da2997e2c73888069cd.bindPopup(popup_2543da122a2744b6b336152a9eeb309f)
+        ;
+
+        
+    
+    
+            marker_3de3add2c3e74da2997e2c73888069cd.bindTooltip(
+                `<div>
+                     Pondok Indah Jakarta Selatan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dade628190cf4673b13a27e91c10429b = L.marker(
+                [-6.2865054, 106.7684214],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_00831e2bc76c44a8b220e208616b22f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54d229d4be8b452eadef6292efc9b2cd = $(`<div id="html_54d229d4be8b452eadef6292efc9b2cd" style="width: 100.0%; height: 100.0%;">Jl. Ciputat Raya No. 40</div>`)[0];
+            popup_00831e2bc76c44a8b220e208616b22f0.setContent(html_54d229d4be8b452eadef6292efc9b2cd);
+        
+
+        marker_dade628190cf4673b13a27e91c10429b.bindPopup(popup_00831e2bc76c44a8b220e208616b22f0)
+        ;
+
+        
+    
+    
+            marker_dade628190cf4673b13a27e91c10429b.bindTooltip(
+                `<div>
+                     Bhayangkara Selapa Polri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91c9310488d94f3da641908aea697e05 = L.marker(
+                [-6.2713867, 106.828062],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_0c896fdaa9d042548ff6b60187dae05f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e9a75885d95453598c785f7c1fa4bf6 = $(`<div id="html_9e9a75885d95453598c785f7c1fa4bf6" style="width: 100.0%; height: 100.0%;">Jl. Warung Buncit Raya No. 15</div>`)[0];
+            popup_0c896fdaa9d042548ff6b60187dae05f.setContent(html_9e9a75885d95453598c785f7c1fa4bf6);
+        
+
+        marker_91c9310488d94f3da641908aea697e05.bindPopup(popup_0c896fdaa9d042548ff6b60187dae05f)
+        ;
+
+        
+    
+    
+            marker_91c9310488d94f3da641908aea697e05.bindTooltip(
+                `<div>
+                     Jakarta Medical Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95bb01b2dd514cfdad04fe867ae4ff4b = L.marker(
+                [-6.3047972, 106.8082157],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_e3c30101d3f848f39746408b17cb172d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db109d17479a4ba5b2c4cfbefd92f627 = $(`<div id="html_db109d17479a4ba5b2c4cfbefd92f627" style="width: 100.0%; height: 100.0%;">Jl. Raya Cilandak  KKO</div>`)[0];
+            popup_e3c30101d3f848f39746408b17cb172d.setContent(html_db109d17479a4ba5b2c4cfbefd92f627);
+        
+
+        marker_95bb01b2dd514cfdad04fe867ae4ff4b.bindPopup(popup_e3c30101d3f848f39746408b17cb172d)
+        ;
+
+        
+    
+    
+            marker_95bb01b2dd514cfdad04fe867ae4ff4b.bindTooltip(
+                `<div>
+                     Rumkital Marinir Cilandak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7a217ef3ea44e188a8e4d81ba3c21bf = L.marker(
+                [-6.2728585, 106.8369878],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_f56a9708654e415383ec75b8b2b6d8f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4352d90af28453099aae48a462f657f = $(`<div id="html_a4352d90af28453099aae48a462f657f" style="width: 100.0%; height: 100.0%;">Jl. Siaga Raya Kav. 4 - 8</div>`)[0];
+            popup_f56a9708654e415383ec75b8b2b6d8f5.setContent(html_a4352d90af28453099aae48a462f657f);
+        
+
+        marker_b7a217ef3ea44e188a8e4d81ba3c21bf.bindPopup(popup_f56a9708654e415383ec75b8b2b6d8f5)
+        ;
+
+        
+    
+    
+            marker_b7a217ef3ea44e188a8e4d81ba3c21bf.bindTooltip(
+                `<div>
+                     Siaga Raya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1383ca5f474c48c7a796cafac19af73c = L.marker(
+                [-6.2675622, 106.7644585],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_dfd16813dda54517bc3c82897a68621b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80bc145e84134c65867093763d8594f5 = $(`<div id="html_80bc145e84134c65867093763d8594f5" style="width: 100.0%; height: 100.0%;">Jl. R. C. Veteran No. 178</div>`)[0];
+            popup_dfd16813dda54517bc3c82897a68621b.setContent(html_80bc145e84134c65867093763d8594f5);
+        
+
+        marker_1383ca5f474c48c7a796cafac19af73c.bindPopup(popup_dfd16813dda54517bc3c82897a68621b)
+        ;
+
+        
+    
+    
+            marker_1383ca5f474c48c7a796cafac19af73c.bindTooltip(
+                `<div>
+                     Dr. Suyoto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6a2f71272204c47854d96fcd6c31feb = L.marker(
+                [-6.219973, 106.8301052],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_de47d528e50d49f5a083aa2315c9cae9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92ee01fb5c5c4ac688793d1e8bda8fc1 = $(`<div id="html_92ee01fb5c5c4ac688793d1e8bda8fc1" style="width: 100.0%; height: 100.0%;">Jl. HR. Rasuna Said Kav. C-21 Kuningan</div>`)[0];
+            popup_de47d528e50d49f5a083aa2315c9cae9.setContent(html_92ee01fb5c5c4ac688793d1e8bda8fc1);
+        
+
+        marker_d6a2f71272204c47854d96fcd6c31feb.bindPopup(popup_de47d528e50d49f5a083aa2315c9cae9)
+        ;
+
+        
+    
+    
+            marker_d6a2f71272204c47854d96fcd6c31feb.bindTooltip(
+                `<div>
+                     Metropolitan Medical Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50fd529a78084fa081352a6b9dfa43e7 = L.marker(
+                [-6.2397263, 106.831732],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_d309935bf79f43019f8f6ebd608f2e31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b954d2fe21a04b95aac9705a832307fd = $(`<div id="html_b954d2fe21a04b95aac9705a832307fd" style="width: 100.0%; height: 100.0%;">Jl. Jenderal Gatot Subroto Kav. 59</div>`)[0];
+            popup_d309935bf79f43019f8f6ebd608f2e31.setContent(html_b954d2fe21a04b95aac9705a832307fd);
+        
+
+        marker_50fd529a78084fa081352a6b9dfa43e7.bindPopup(popup_d309935bf79f43019f8f6ebd608f2e31)
+        ;
+
+        
+    
+    
+            marker_50fd529a78084fa081352a6b9dfa43e7.bindTooltip(
+                `<div>
+                     Medistra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4800666a99f4865b05efa744312be47 = L.marker(
+                [-6.2382424, 106.7675924],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_e2d28440bacc4c218c434ee6bf6439d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8fddbe66ae24e31ae78b27ae5109f7e = $(`<div id="html_e8fddbe66ae24e31ae78b27ae5109f7e" style="width: 100.0%; height: 100.0%;">Jl. Ciledug Raya No. 94 - 96</div>`)[0];
+            popup_e2d28440bacc4c218c434ee6bf6439d9.setContent(html_e8fddbe66ae24e31ae78b27ae5109f7e);
+        
+
+        marker_e4800666a99f4865b05efa744312be47.bindPopup(popup_e2d28440bacc4c218c434ee6bf6439d9)
+        ;
+
+        
+    
+    
+            marker_e4800666a99f4865b05efa744312be47.bindTooltip(
+                `<div>
+                     Kartini
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e19b2136136446069a2872021a49f393 = L.marker(
+                [-6.2545234, 106.8235682],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_7161396d230f4fbdb5750fb388adfcae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fe89f4a63e24089b1a7363a0017e5c2 = $(`<div id="html_5fe89f4a63e24089b1a7363a0017e5c2" style="width: 100.0%; height: 100.0%;">Jl. Duren Tiga Raya No. 20</div>`)[0];
+            popup_7161396d230f4fbdb5750fb388adfcae.setContent(html_5fe89f4a63e24089b1a7363a0017e5c2);
+        
+
+        marker_e19b2136136446069a2872021a49f393.bindPopup(popup_7161396d230f4fbdb5750fb388adfcae)
+        ;
+
+        
+    
+    
+            marker_e19b2136136446069a2872021a49f393.bindTooltip(
+                `<div>
+                     ASRI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8896f2cfb3ed442098b76eea5083c74a = L.marker(
+                [-6.2190538, 106.8149643],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_0080336f37604daba4e41e59181743c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bae64ac9009140b790b0d1be0c5d014f = $(`<div id="html_bae64ac9009140b790b0d1be0c5d014f" style="width: 100.0%; height: 100.0%;">Jl. Garnisun No. 2 - 3</div>`)[0];
+            popup_0080336f37604daba4e41e59181743c6.setContent(html_bae64ac9009140b790b0d1be0c5d014f);
+        
+
+        marker_8896f2cfb3ed442098b76eea5083c74a.bindPopup(popup_0080336f37604daba4e41e59181743c6)
+        ;
+
+        
+    
+    
+            marker_8896f2cfb3ed442098b76eea5083c74a.bindTooltip(
+                `<div>
+                     Siloam Semanggi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2de2e845cd5045709c836a72194684cb = L.marker(
+                [-6.1960671, 106.9037401],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_cf3a1173dbf0482fb87b00cab0ae7a7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74d998aa85e54f248a79b4fa78e220a8 = $(`<div id="html_74d998aa85e54f248a79b4fa78e220a8" style="width: 100.0%; height: 100.0%;">Jl. Bekasi Timur Raya KM. 18 No. 6 P. Gdg. </div>`)[0];
+            popup_cf3a1173dbf0482fb87b00cab0ae7a7d.setContent(html_74d998aa85e54f248a79b4fa78e220a8);
+        
+
+        marker_2de2e845cd5045709c836a72194684cb.bindPopup(popup_cf3a1173dbf0482fb87b00cab0ae7a7d)
+        ;
+
+        
+    
+    
+            marker_2de2e845cd5045709c836a72194684cb.bindTooltip(
+                `<div>
+                     Harapan Jayakarta 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bb3dcf164374d7f86cfd6f5adcfae6a = L.marker(
+                [-6.2215777, 106.8666018],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_9672b6efbaad47c98a8b517d4180ef34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8b402296e7b49f1b55416eb0f441031 = $(`<div id="html_b8b402296e7b49f1b55416eb0f441031" style="width: 100.0%; height: 100.0%;">Jl. Raya Jatinegara Timur No. 85 - 87</div>`)[0];
+            popup_9672b6efbaad47c98a8b517d4180ef34.setContent(html_b8b402296e7b49f1b55416eb0f441031);
+        
+
+        marker_1bb3dcf164374d7f86cfd6f5adcfae6a.bindPopup(popup_9672b6efbaad47c98a8b517d4180ef34)
+        ;
+
+        
+    
+    
+            marker_1bb3dcf164374d7f86cfd6f5adcfae6a.bindTooltip(
+                `<div>
+                     Premier Jatinegara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5aab1e10ad64b2cb1677ba3cd3aabff = L.marker(
+                [-6.1803329, 106.8816968],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_4baa2ba06fca412cb0cd792626ea1e0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6a4fde83ab84b5493af7e392c12f891 = $(`<div id="html_e6a4fde83ab84b5493af7e392c12f891" style="width: 100.0%; height: 100.0%;">Jl. Pulomas Barat VI No. 20</div>`)[0];
+            popup_4baa2ba06fca412cb0cd792626ea1e0f.setContent(html_e6a4fde83ab84b5493af7e392c12f891);
+        
+
+        marker_a5aab1e10ad64b2cb1677ba3cd3aabff.bindPopup(popup_4baa2ba06fca412cb0cd792626ea1e0f)
+        ;
+
+        
+    
+    
+            marker_a5aab1e10ad64b2cb1677ba3cd3aabff.bindTooltip(
+                `<div>
+                     Omni Internasional Pulomas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6445b9dcc8654c1bb5a476d2a84f6a59 = L.marker(
+                [-6.1760269, 106.8828681],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_1beb1696927d48ecb3b9382cb1dc4a4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee409d4552054a028b4921c4d54f3a69 = $(`<div id="html_ee409d4552054a028b4921c4d54f3a69" style="width: 100.0%; height: 100.0%;">Jl. Pulomas Timur K. No.2</div>`)[0];
+            popup_1beb1696927d48ecb3b9382cb1dc4a4c.setContent(html_ee409d4552054a028b4921c4d54f3a69);
+        
+
+        marker_6445b9dcc8654c1bb5a476d2a84f6a59.bindPopup(popup_1beb1696927d48ecb3b9382cb1dc4a4c)
+        ;
+
+        
+    
+    
+            marker_6445b9dcc8654c1bb5a476d2a84f6a59.bindTooltip(
+                `<div>
+                     Kartika Pulomas 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_011999cbe94e4d049ad7b33765f9ce6a = L.marker(
+                [-6.1759786, 106.8674989],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_5785aa09bc11415ba68e3d2618431140 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e154d7b4bfc24dc88016209a36003467 = $(`<div id="html_e154d7b4bfc24dc88016209a36003467" style="width: 100.0%; height: 100.0%;">Jl. Persahabatan Raya </div>`)[0];
+            popup_5785aa09bc11415ba68e3d2618431140.setContent(html_e154d7b4bfc24dc88016209a36003467);
+        
+
+        marker_011999cbe94e4d049ad7b33765f9ce6a.bindPopup(popup_5785aa09bc11415ba68e3d2618431140)
+        ;
+
+        
+    
+    
+            marker_011999cbe94e4d049ad7b33765f9ce6a.bindTooltip(
+                `<div>
+                     Persahabatan 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52f75448062a4474bb10d7487985085a = L.marker(
+                [-6.1798695, 106.9015269],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_5def6e9e4b4b4725a5da214aeb1ee10a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3ca15a6c3fe4b9a962c77421bd931c8 = $(`<div id="html_d3ca15a6c3fe4b9a962c77421bd931c8" style="width: 100.0%; height: 100.0%;">Jl. Perintis Kemerdekaan Kav. 149</div>`)[0];
+            popup_5def6e9e4b4b4725a5da214aeb1ee10a.setContent(html_d3ca15a6c3fe4b9a962c77421bd931c8);
+        
+
+        marker_52f75448062a4474bb10d7487985085a.bindPopup(popup_5def6e9e4b4b4725a5da214aeb1ee10a)
+        ;
+
+        
+    
+    
+            marker_52f75448062a4474bb10d7487985085a.bindTooltip(
+                `<div>
+                     Mediros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_420d6efc124644f9966bfda75500abf6 = L.marker(
+                [-6.1960397, 106.8842077],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_b3c186cad22e4413838a1e3baf333f16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d8aee30bd7a4f679941f48f7f0e0373 = $(`<div id="html_6d8aee30bd7a4f679941f48f7f0e0373" style="width: 100.0%; height: 100.0%;">Jl. Balai Pustaka Baru No. 19</div>`)[0];
+            popup_b3c186cad22e4413838a1e3baf333f16.setContent(html_6d8aee30bd7a4f679941f48f7f0e0373);
+        
+
+        marker_420d6efc124644f9966bfda75500abf6.bindPopup(popup_b3c186cad22e4413838a1e3baf333f16)
+        ;
+
+        
+    
+    
+            marker_420d6efc124644f9966bfda75500abf6.bindTooltip(
+                `<div>
+                     Dharma Nugraha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4d7aba035c542a2801b3ac19c902e45 = L.marker(
+                [-6.1937465, 106.8894038],
+                {}
+            ).addTo(map_0c4118343e2d45dea9fd957bfa1b69d1);
+        
+    
+        var popup_76dd20b21c4e422f9e36c104caf539a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18451b26271f422c87e2edb1b928c720 = $(`<div id="html_18451b26271f422c87e2edb1b928c720" style="width: 100.0%; height: 100.0%;">Jl. Pemuda No. 80  RT.001 RW.08</div>`)[0];
+            popup_76dd20b21c4e422f9e36c104caf539a7.setContent(html_18451b26271f422c87e2edb1b928c720);
+        
+
+        marker_a4d7aba035c542a2801b3ac19c902e45.bindPopup(popup_76dd20b21c4e422f9e36c104caf539a7)
+        ;
+
+        
+    
+    
+            marker_a4d7aba035c542a2801b3ac19c902e45.bindTooltip(
+                `<div>
+                     Alvernia Agusta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
